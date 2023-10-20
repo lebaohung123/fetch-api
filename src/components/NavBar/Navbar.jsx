@@ -34,23 +34,10 @@ export default function Navbar() {
                 Products
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
-                Contact
-              </NavLink>
-            </li>
           </ul>
           <div className="buttons">
-            <NavLink to="/login" className="btn btn-outline-dark">
-              <i class="fa fa-sign-in mr-2" aria-hidden="true"></i>
-              Login
-            </NavLink>
-            <NavLink to="/singup" className="btn btn-outline-dark mx-3">
-              <i class="fa fa-user-plus mr-2" aria-hidden="true"></i>
-              SingUp
-            </NavLink>
             <NavLink to="/cart" className="btn btn-outline-dark ">
-              <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
+              <i className="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
               Cart ({state.length})
             </NavLink>
           </div>
